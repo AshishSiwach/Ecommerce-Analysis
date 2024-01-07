@@ -8,7 +8,6 @@ SET SQL_SAFE_UPDATES=0;
 UPDATE orders SET order_date = STR_TO_DATE(order_date, '%d-%m-%Y');
 UPDATE shipping SET ship_date = STR_TO_DATE(ship_date, '%d-%m-%Y');
 -- number of orders that were made on the most happening days (25th Dec and 31st Dec) for the year 2010 and 2011? 
-
 SELECT
 DATE(order_date) as order_day,
 COUNT(*) as order_count
