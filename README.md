@@ -4,35 +4,65 @@ Ecommerce Company Data Analysis in MySQL
 Data - The data consists of 4 dimension tables and one fact table.
 ## Data Dictionary
 * Cust_Dimen Dataset: Customer Dataset
+  
   Customer_Name : Name of the customer
+  
   Province : Province of the customer
+  
   Region : Specific region of the customer
+  
   Customer_segment : Type of customer
+  
   Cust_id : Unique identifier of the customer
+  
 * Orders_Dimen Dataset : Orders Dataset
+  
   Order_ID :Order ID
+  
   Order_Date: Date of the Order
+  
   Order_Priority : Priority of the Order
+  
   Ord_id : Unique Identifier of the Order
+  
 * Prod_dimen dataset : Products Dataset
+  
   Product_Category : Category of the Product
+  
   Product_Sub_Category : Sub Category of the Product
+  
   Prod_id : Unique Identifier of the Product
+  
 * Shipping_dimen dataset : Shipping Dataset
+  
   Order_ID : Order ID
+  
   Ship_Mode : Mode of Shipping
+  
   Ship_Date : Date when order is shipped
+  
   Ship_id : Unique Identifier of each shipment
+  
 * Market_fact dataset : Market facts dataset
+  
   Ord_id : Unique Identifier of the Order
+  
   Prod_id : Unique Identifier of the Product
+  
   Ship_id : Unique Identifier of each shipment
+  
   Cust_id : Unique identifier of the customer
+  
   Sales : Amount of Sales Made
+  
   Discount : Discount Provided
+  
   Order_Quantity ; Units of a product ordered.
+  
   Profit : Profit on each order
+  
   Shipping_Cost : Shipping Cost for an order
+  
   Product_Base_Margin : Margin on each Product sold.
   
 ## Key Findings
