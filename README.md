@@ -1,5 +1,6 @@
 # Ecommerce-Analysis
 Ecommerce Company Data Analysis in MySQL
+
 **Problem Statement** - The company has recently seen a decline in their sales and wants you to look into the reason for this fall in order to take appropriate steps to improve the performance. Since the company is a large one, they want to focus their time and resources on the categories that can provide them with maximum returns.
 Data - The data consists of 4 dimension tables and one fact table.
 ## Data Dictionary
